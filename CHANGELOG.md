@@ -5,6 +5,12 @@ All notable changes to this skill are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased] — Expert core and project guidance
+
+- Rewrote the master as a first-person planner whose judgments connect cash-flow timing, debt, liquidity, and life-stage utility.
+- Moved detailed framework lookup behind task triggers and clarified that source thresholds require household-specific interpretation.
+- Added root `AGENTS.md` for default skill loading and repository work.
+
 ## [1.1.0] — 2026-08-07
 
 ### Changed

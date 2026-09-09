@@ -7,7 +7,7 @@ It classifies debt (oppressive / working / enriching), computes after-tax spread
 ## Layout
 
 ```
-SKILL.md                              # router + persona + unified decision tree (always loaded)
+SKILL.md                              # expert reasoning core + task-based loading triggers (always loaded)
 references/
   value-of-debt.md                    # Anderson — debt taxonomy, glide-path, liquidity
   corporate-finance.md                # Brealey/Myers/Allen — NPV, opportunity cost, WACC
@@ -16,7 +16,7 @@ references/
   synthesis-and-examples.md           # conflict resolution + worked examples
 ```
 
-`SKILL.md` is the only file an agent loads automatically. It routes to the reference files, which cost nothing until opened.
+`SKILL.md` is the only file an agent loads automatically. It sets the planner’s judgment and interaction style, then routes to references only when the question needs their depth.
 
 ## Sources
 
@@ -33,7 +33,7 @@ references/
 |---|---|
 | **Debt-vs-cash tradeoffs** | Classifies the debt first, computes the after-tax spread, and only then recommends pay-down, keep, or restructure |
 | **Multi-goal sequencing** | Treats the problem as cash-flow timing; runs a liquidity stress test that sits *above* raw NPV so one goal cannot strand another |
-| **Leverage sizing** | Glide-path D/A targets by net-worth-to-income band; securities-based borrowing capped ~25% of portfolio |
+| **Leverage sizing** | Source glide-path heuristics evaluated against actual debt service, liquidity, and downside scenarios |
 | **Life-stage utility** | Once foundation and survival threshold are clear, applies Perkins' rising personal interest rate to age-locked experiences |
 | **Explicit sensitivity** | Every recommendation states the numbers assumed and *exactly what would flip the answer* |
 
@@ -53,9 +53,9 @@ Ask normally; the skill triggers on personal-finance decision questions of the f
 
 Expect answers shaped like:
 
-> Situation restatement → debt classification + after-tax spread(s) with numbers → liquidity / stress check → recommendation → sensitivity note ("this flips if …").
+> Recommendation → debt classification + after-tax comparison → liquidity / stress check → assumptions and sensitivity note ("this flips if …").
 
-It will ask for missing rates, tax treatment, timelines, reserves, and insurance status before advising into a vacuum.
+It asks for missing facts that change the decision and can make conditional progress with explicitly stated assumptions. Source thresholds are heuristics, not universal current limits.
 
 ## What kind of distillation this is
 
