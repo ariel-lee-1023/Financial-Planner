@@ -1,6 +1,8 @@
 # The Value of Debt in Building Wealth — Thomas J. Anderson
 **Format**: markdown (extracted) | **Pages**: ~250 | **Sections**: 7 chapters + 5 appendices | **Depth**: study
 
+**Application boundary:** The rates and leverage ratios below are Anderson's source heuristics. Evaluate current terms, after-tax cost, accessible liquidity, collateral risk, and household goals before applying them; a ratio does not guarantee safety.
+
 ## Mental Model (read first)
 Debt is a tool, not a moral category. The right debt, in the right amount, at the right time, can raise after-tax returns, lower taxes, and *reduce* risk by preserving liquidity. The wrong debt (oppressive) destroys wealth in real time. Optimal leverage follows a **glide path** that declines as net worth grows relative to income (L.I.F.E. phases). Always work both sides of the balance sheet; cash is insurance.
 
@@ -17,12 +19,12 @@ Debt is a tool, not a moral category. The right debt, in the right amount, at th
 
 | Type | Definition | Typical examples | Action |
 |---|---|---|---|
-| **Oppressive** | Rate > inflation + ~6 % (practice ~8–10 %+), usually non-deductible, amortizing | Payday, revolving credit cards, high-rate consumer | Eliminate at all costs |
+| **Oppressive** | Rate > inflation + ~6 % (practice ~8–10 %+), usually non-deductible, amortizing | Payday, revolving credit cards, high-rate consumer | Prioritize relief while preserving essential payments and emergency access to cash |
 | **Working** | Real cost but enables otherwise impossible goals | Mortgages, SBA/business, low-cost student | Service; do not rush to kill if rate is low |
 | **Enriching** | You *could* pay it off anytime but choose to keep it | Low-rate mortgages, securities-based lines | May raise return, cut taxes, *reduce risk* via retained liquidity |
 
 - **Paying down debt = guaranteed after-tax return** equal to the debt’s after-tax cost `r_D (1 − T_c)`.
-- **Value liquidity** (“Sh*t happens”): cash and undrawn credit lines are insurance; their value does not appear in a simple interest comparison.
+- **Value liquidity** (“Sh*t happens”): cash provides immediate liquidity; undrawn credit may add flexibility but can be reduced, frozen, or repriced; their value does not appear in a simple interest comparison.
 - **Compounding works both ways**: high-rate debt compounds against you; early savings compounds for you.
 - **Behavioral economics matters**: present bias, mental accounting, and debt aversion systematically distort decisions.
 - **Anti-pattern** — treating every liability as morally identical or accelerating every payment regardless of after-tax rate.
@@ -56,7 +58,7 @@ Debt is a tool, not a moral category. The right debt, in the right amount, at th
 - **Three buckets of money**: short-term liquidity, intermediate (goals with known dates), long-term growth.
 - **House as asset and liability**: large, illiquid, concentrated, leveraged; treat ownership as a consumption and risk decision, not pure investment.
 - **Factoring leverage into returns**: levered equity returns are higher but risk is also higher; size leverage so that a stress scenario does not force liquidation.
-- **Securities-based lending (SBL)**: borrow against a diversified portfolio at rates often lower than mortgages, with high flexibility; **hard guardrail ≈ 25 % of portfolio value** to survive drawdowns without margin calls.
+- **Securities-based lending (SBL)**: borrow against a diversified portfolio at rates often lower than mortgages, with high flexibility; **source guideline ≈ 25 % of portfolio value**; this does not guarantee survival of drawdowns or prevent margin calls. Assess collateral eligibility, lender terms, concentration, and repayment capacity.
 - **Anti-pattern** — optimizing the asset side while ignoring the liability side (or vice versa).
 
 ### Chapter 6 — Proof of the Value of Debt
@@ -73,13 +75,13 @@ Debt is a tool, not a moral category. The right debt, in the right amount, at th
 ## Worked Example
 **Low-rate mortgage vs. windfall.**  
 Client receives $200 k windfall. Mortgage balance $350 k at 3.5 % (after-tax ~2.7 % if deductible). Diversified portfolio expected after-tax return ~5–6 % with acceptable risk. Net worth already > 5× income; D/A currently ~30 %.  
-Classification: enriching/working debt. Paying it off earns a guaranteed ~2.7 % and destroys liquidity. NPV and Anderson’s ~4 % “do not accelerate” threshold both favor keeping the mortgage and investing/keeping liquid the windfall. Stress test: confirm that even after a 30–40 % equity drawdown the remaining liquidity and debt service remain comfortable. Perkins overlay: if the client is past the survival threshold and the psychological freedom of a paid-off house unlocks higher present utility, surface that as an explicit utility trade-off, not a default.
+Classification: potentially enriching/working debt under the stated assumptions. Paying down the mortgage avoids its borrowing cost but reduces liquid assets. The expected portfolio return is uncertain, so its positive spread does not establish dominance over repayment. Compare safe liquidity, fees and applicable tax benefits, downside cash flow, concentration, and the household's preferences. Keeping the mortgage is a candidate if those tests pass; Anderson's ~4% threshold is only a source heuristic. A preference for a paid-off house can carry value without needing to be dismissed as irrational.
 
 ## Decision Rules & Judgment
 - Classify every liability first (oppressive / working / enriching) before any payoff recommendation.
-- After-tax cost under ~4 % → do not accelerate beyond required amortization unless liquidity is already excessive.
-- Never borrow > ~25 % of a securities portfolio on SBL; size total D/A to the net-worth-to-income band.
-- Foundation (3–6 months liquid + catastrophic-risk cover) precedes any leverage optimization.
+- After-tax cost under ~4% is Anderson's starting heuristic for considering retention, not a keep-debt command. Compare risk, liquidity, fees, terms, and preferences.
+- Treat ~25% SBL and glide-path D/A ratios as source reference points, not safe-harbor limits. Size borrowing to stressed collateral values, lender rights, and actual debt service; even a lower ratio can be unsuitable.
+- Protect essential cash flow and catastrophic-risk resilience before increasing leverage. Adapt reserve targets to the household; assess refinancing or repayment alongside reserve building when it relieves pressure.
 - Rent vs. buy: early in Launch/Independence the flexibility option often dominates pure ownership math.
 - At Equilibrium, the burden of proof shifts to *why keep leverage*; many high-net-worth households rationally choose lower or zero debt.
 
@@ -88,6 +90,6 @@ Classification: enriching/working debt. Paying it off earns a guaranteed ~2.7 % 
 2. Paying down debt earns a risk-free after-tax return equal to the debt’s after-tax cost.
 3. Liquidity is insurance; work both sides of the balance sheet.
 4. Glide-path D/A declines with net-worth-to-income; L.I.F.E. phases give the sequence.
-5. Securities-based lending is powerful but hard-capped (~25 % of portfolio).
-6. Math can prove controlled debt paths dominate pure debt-free paths once oppressive debt is gone.
+5. Securities-based lending adds liquidity and collateral-call risk; the source's ~25% guideline is not a guarantee.
+6. Source models illustrate conditions under which controlled debt can outperform debt-free paths; assumptions and downside determine whether that comparison applies.
 7. Behavioral biases (debt aversion, present bias) systematically push people away from the optimal path.

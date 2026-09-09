@@ -1,6 +1,8 @@
 # Die with Zero — Bill Perkins
 **Format**: markdown (extracted) | **Pages**: ~240 | **Sections**: 9 rules + appendices | **Depth**: study
 
+**Application boundary:** This file preserves Perkins' spending philosophy, not a universal household objective. Respect intended bequests, dependants, uncertainty, and the user's preferences. The survival-threshold formula is a source illustration, not an actuarial guarantee or sufficient evidence to retire or spend down.
+
 ## Mental Model (read first)
 Money is life energy converted into experiences. The objective function is **maximize lifetime fulfillment**, not terminal net worth. Health and the capacity to enjoy money both decline with age, so experiences have a hard time window. Unspent money at death is wasted life energy. The nine rules convert this into an actionable optimization problem: time experiences correctly, aim for zero residual wealth (after a survival floor), give while alive, and stop accumulating past the utility peak.
 
@@ -56,7 +58,7 @@ Money is life energy converted into experiences. The objective function is **max
   ```
   Survival threshold ≈ 0.7 × (annual cost of living) × (years of remaining life expectancy)
   ```
-  Home equity (downsizing or reverse mortgage) can count toward the threshold.
+  Count home equity only through a feasible, explicitly modelled route to cash or lower housing costs, allowing for timing, terms, and continued housing needs.
 - **Know when to stop growing wealth**: once above the survival threshold and past the peak of earning/health capacity, shift from accumulation to deliberate decumulation and experience funding.
 - **Anti-pattern** — indefinite wealth maximization that leaves a large unused residue at death.
 
@@ -76,13 +78,13 @@ Money is life energy converted into experiences. The objective function is **max
 Client, age 55, annual living cost $80 k, healthy life expectancy ~25 years remaining.  
 Survival threshold ≈ 0.7 × 80 k × 25 = $1.4 M.  
 Current investable net worth $3.2 M; mortgage $400 k at 3.2 % after-tax; health excellent.  
-Peak has already been reached or is imminent. Recommendation: stop aggressive accumulation, begin planned decumulation (annuity purchase or systematic drawdown for experiences), keep the low-rate mortgage (enriching debt), and fund age-appropriate experiences now rather than further compounding the surplus. Sensitivity: if health deteriorates sharply or longevity is under-estimated, raise the floor; if a large illiquid concentrated position exists, treat the threshold as higher until diversified.
+These figures illustrate why spending now deserves consideration; they do not establish that the client has reached a wealth peak or can safely decumulate. Before recommending drawdown, an annuity, or retaining the mortgage, compare longevity and health-cost scenarios, actual income and liquid assets, dependants, bequests, applicable taxes, and the client's preferences. The $1.4 M heuristic alone cannot authorize the decision.
 
 ## Decision Rules & Judgment
-- If below the survival threshold or lacking catastrophic-risk cover → **do not** invoke “die with zero”; protect and build first (Leimberg/Anderson gate).
-- If after-tax cost of a debt < ~4 % and liquidity is valuable → keep the debt; paying it off earns only that low risk-free rate.
-- Age-locked experiences carry a utility premium equal to the rise in the personal interest rate; a pure cash NPV that ignores this under-weights them.
-- Give to heirs and charity on a planned schedule while alive; default bequests are usually suboptimal for both parties.
+- If essential spending or catastrophic-risk resilience is insecure, address that before increasing discretionary drawdown. Use a household cash-flow assessment rather than treating the source formula as the boundary between safe and unsafe.
+- A low after-tax debt cost, including the source's ~4% reference point, can favor retention when liquidity is valuable. Compare actual terms, risk, cash flow, and preferences before choosing repayment or retention.
+- Age-locked experiences can make delay costly. Use the personal-interest-rate concept to discuss that preference; do not invent a numerical utility premium from age alone.
+- Compare lifetime gifts with bequests based on recipient needs, the donor's security, legal/tax constraints, and intended timing; preserve the user's chosen legacy goals.
 - Once net worth is clearly above the survival threshold and health is still high, the burden of proof shifts to *why continue accumulating*.
 - Bold career/life moves are highest-ROI when recovery time is long and downside is bounded; reverse the bias as age and obligations rise.
 

@@ -16,7 +16,7 @@ references/
   synthesis-and-examples.md           # conflict resolution + worked examples
 ```
 
-`SKILL.md` is the only file an agent loads automatically. It sets the planner’s judgment and interaction style, then routes to references only when the question needs their depth.
+`SKILL.md` is the expert entrypoint; root `AGENTS.md` also guides work when this repository is opened as a project. It sets the planner’s judgment and interaction style, then routes to references only when the question needs their depth.
 
 ## Sources
 
@@ -24,7 +24,7 @@ references/
 |---|---|
 | **The Value of Debt in Building Wealth** — Thomas J. Anderson | Debt taxonomy, after-tax return equivalence, liquidity as insurance, glide-path D/A ratios by net-worth-to-income |
 | **Principles of Corporate Finance** — Brealey, Myers & Allen | NPV rule, opportunity cost of capital, after-tax cost of debt, WACC (the neutral arithmetic layer) |
-| **The Tools & Techniques of Financial Planning** — Leimberg et al. | Cash-flow planning as the outer loop, seven-step process, emergency reserve + catastrophic-risk insurance before any optimization |
+| **The Tools & Techniques of Financial Planning** — Leimberg et al. | Cash-flow planning as the outer loop, seven-step process, household-specific emergency liquidity and catastrophic-risk protection as constraints on optimization |
 | **Die with Zero** — Bill Perkins | Objective function = lifetime fulfillment; memory dividend; age-rising personal interest rate; survival threshold; net-worth peak |
 
 ## What it does
@@ -35,23 +35,23 @@ references/
 | **Multi-goal sequencing** | Treats the problem as cash-flow timing; runs a liquidity stress test that sits *above* raw NPV so one goal cannot strand another |
 | **Leverage sizing** | Source glide-path heuristics evaluated against actual debt service, liquidity, and downside scenarios |
 | **Life-stage utility** | Once foundation and survival threshold are clear, applies Perkins' rising personal interest rate to age-locked experiences |
-| **Explicit sensitivity** | Every recommendation states the numbers assumed and *exactly what would flip the answer* |
+| **Explicit sensitivity** | Material assumptions and the conditions that could change the recommendation; quantify them when the inputs support it |
 
 ## Install
 
 Clone into your agent's skill directory. For Claude Code:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/Financial-planner.git ~/.claude/skills/financial-planner
+git clone https://github.com/ariel-lee-1023/Financial-Planner.git ~/.claude/skills/financial-planner
 ```
 
-Other hosts use different roots — e.g. `~/.copilot/skills/`, `~/.agents/skills/`, or `.claude/skills/` for project scope. The directory name becomes the skill name; keep it `financial-planner` to match the `name:` in `SKILL.md`.
+For another host, use its configured skill directory and keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
 
 ## Usage
 
 Ask normally; the skill triggers on personal-finance decision questions of the form "should I pay cash or borrow", "pay off the loan or invest", "fund goal A without stranding goal B", refinance / restructure, retirement drawdown sequencing, etc.
 
-Expect answers shaped like:
+For a debt-versus-cash comparison, a useful answer might follow this sequence; adapt it to the question:
 
 > Recommendation → debt classification + after-tax comparison → liquidity / stress check → assumptions and sensitivity note ("this flips if …").
 
@@ -73,6 +73,6 @@ Built in the multi-source skill-library pattern (see [Books-to-Skill-Refs](https
 
 ## License
 
-[MIT](LICENSE) — covering the original work here: the skill structure, router, decision tree, README, and the distillation text as written.
+[MIT](LICENSE) — covering the original work here: the skill structure, expert core, loading guidance, README, and the distillation text as written.
 
 The underlying books keep their own terms and are not relicensed by this. See [NOTICE.md](NOTICE.md).

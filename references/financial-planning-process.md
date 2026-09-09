@@ -20,13 +20,13 @@ Financial planning is **cash-flow planning**: the right amount of cash, at the r
 6. **Implement** the recommendation(s).
 7. **Monitor** progress and **update** as circumstances and laws change.
 
-For an AI or one-shot advisor interaction: steps 1–2 map to clarifying questions; 3–5 to analysis and recommendation; 6–7 to implementation notes and sensitivity/monitoring flags.
+For an AI or one-shot interaction, use circumstances already supplied and ask only for decision-changing gaps. Scale the seven steps to the task; a narrow question does not require a full intake. Implementation means proposed next steps unless action is separately authorized. Review means triggers the user can revisit, not a promise of background monitoring.
 
 ### Hierarchy of financial needs and risks (foundation first)
-- **Maslow-style ordering**: lower layers must be secure before higher-layer optimization is legitimate.
-- **Emergency reserve**: long-standing rule of thumb — **3–6 months of essential expenses** (or income) in liquid form (savings, money-market). This is the firm foundation.
+- **Maslow-style ordering**: prioritize essential cash flow and resilience when they are at risk. Compare feasible sequences rather than treating every unmet reserve target as a reason to stop analysis.
+- **Emergency reserve**: **3–6 months of essential expenses** is a starting rule of thumb. Adapt it to income volatility, dependants, access to funds, and committed expenses; reaching the range alone does not establish resilience.
 - **Catastrophic-risk insurance principle**: insure any loss large enough to place other wealth-accumulation objectives in jeopardy (disability, premature death of an earner, liability, major health). You do not optimize a portfolio or a leverage strategy while a single uninsured event can destroy it.
-- **Only after the foundation**: accumulation, tax-aware investing, leverage optimization, lifestyle and experience spending.
+- **Higher-layer choices**: test accumulation, leverage, tax-aware investing, and discretionary spending against foundation needs. Refinancing, insurance, reserve building, and costly-debt repayment may need to be compared together.
 - **Anti-pattern** — “optimizing” asset allocation or debt structure while the client has no liquid reserve or is one disability away from ruin.
 
 ### Client relationship and behavioral overlay
@@ -51,21 +51,21 @@ For an AI or one-shot advisor interaction: steps 1–2 map to clarifying questio
 **Two sequential education goals.**  
 Client has $X liquid, wants a master’s now and a possible second degree in ~3 years.  
 Leimberg lens: both are cash-flow timing goals. Step 1–2 require clarifying amounts, loan rates, tax treatment, probability of the second degree, current emergency reserve, and catastrophic-risk cover.  
-If the foundation is missing, stop and build it. If the foundation is intact, the analysis (step 3) becomes a comparison of cash-flow paths: pay Goal A entirely from $X (risk of stranding Goal B) versus using low-cost working debt for Goal A while preserving $X for Goal B. The recommendation (steps 4–5) is the path that keeps both goals fundable under reasonable stress; implementation and monitoring (6–7) track the second goal’s probability and any change in loan or market rates.
+If foundation needs are unmet, compare how reserve building, financing terms, and the timing or scale of education would protect essential cash flow. With those needs addressed, compare paying Goal A from $X with preserving funds through suitable working debt. State which path keeps the selected goals fundable under the stated stress assumptions, and what change in goal probability or loan terms would warrant review.
 
 ## Decision Rules & Judgment
-- No recommendation before circumstances and goals (with timelines) are understood — ask first.
-- Foundation (3–6 months liquid + catastrophic-risk cover) is a hard gate; only oppressive-debt payoff is allowed to compete with it.
+- Use known circumstances and goals. Ask for missing facts that could change the decision; otherwise give a conditional comparison with explicit assumptions.
+- Give essential cash flow and catastrophic-risk resilience priority. Treat 3–6 months as an adaptable reserve guideline; compare debt relief and reserve building without a mechanical stop gate.
 - Every product or strategy is judged by its effect on the *timed cash-flow plan*, not by internal rate of return or product features in isolation.
 - Behavioral profile constrains what will actually be implemented; a theoretically optimal plan the client will abandon is a failed plan.
 - Special circumstances (aging, disability, non-traditional family) reorder both the risk hierarchy and the cash-flow calendar.
-- Monitor and update are not optional; tax law, health, and goal probability change.
+- Identify review triggers such as changes in tax rules, health, loan terms, and goal probability. Update when the user returns or through an explicitly configured service; do not imply continuous monitoring.
 
 ## Key Takeaways
 1. Financial planning = cash-flow planning (right cash, right time, right place).
-2. Seven-step process is the non-negotiable outer loop.
+2. The seven-step process organizes a full engagement; scale it to the question and information already available.
 3. Foundation first: emergency reserve + catastrophic-risk insurance before any optimization.
 4. Multi-goal problems are timing problems; never strand a committed near-term goal for a thin financial edge.
 5. Suitability includes behavioral fit, not only quantitative optimality.
 6. Wills, trusts, and fiduciaries implement the plan; they do not replace it.
-7. Monitor and update continuously — the plan is a living cash-flow schedule.
+7. Specify when and why to review the cash-flow schedule; do not imply unattended monitoring.

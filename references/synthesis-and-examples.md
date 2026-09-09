@@ -7,7 +7,7 @@
 - **Anderson ↔ Corporate Finance are the same claim.**  
   Anderson’s “paying down debt earns a return equal to its after-tax cost” *is* the NPV / opportunity-cost rule applied to a liability. Corporate Finance supplies the calculation; Anderson supplies the taxonomy and liquidity overlay.
 - **Leimberg ↔ everyone.**  
-  Cash-flow timing and foundation-first ordering decide *when* the other three are allowed to speak. No leverage optimization or “die with zero” spending until the emergency reserve and catastrophic-risk cover exist.
+  Cash-flow timing and foundation needs constrain the other comparisons. When reserves are weak, compare reserve building, costly-debt relief, restructuring, and goal timing together; do not halt useful analysis at a generic threshold.
 - **Perkins ↔ Corporate Finance.**  
   Perkins’ personal interest rate is an age-rising discount rate applied to *utility*. Same discounting machinery, different numerator (fulfillment instead of cash).
 
@@ -19,49 +19,23 @@
 - **Debt-free ideology vs. enriching debt.**  
   Cultural “debt is bad” advice collides with both Anderson’s taxonomy and Corporate Finance’s after-tax math; the resolution is classification first.
 
-## The resolution principle (who wins, and when)
+## The resolution principle (which framework matters, and when)
 
-Priority is **conditional on where the client sits**, not fixed:
+The core's household-specific judgment governs this synthesis. Source numbers such as 3–6 months of reserves, ~4% borrowing cost, inflation + ~6%, ~25% securities-based borrowing, and Perkins' survival threshold are reference points, not universal gates or safe harbors.
 
-1. **Below the foundation line** (no 3–6 month reserve, or uninsured catastrophic risk)  
-   → **Leimberg wins outright.** Secure the base. The only optimization allowed is killing oppressive debt.
+1. **Essential cash flow or resilience is weak.** Prioritize essential expenses, debt service, accessible reserves, and catastrophic risks. Compare reserve building and debt relief together, including refinancing or changing goal timing. Avoid a repayment that creates an immediate cash emergency.
+2. **The household is accumulating and can service its debt.** Use Anderson's taxonomy and corporate-finance arithmetic to compare plans. Distinguish uncertain returns from avoided borrowing costs, and apply tax benefits only where available.
+3. **Resources appear adequate and opportunities have a time window.** Use Perkins to examine the value of spending or giving now. Confirm adequacy through the household's longevity, dependants, commitments, and downside scenarios; the source formula alone cannot establish surplus.
+4. **Several goals compete for liquidity.** Trace whether a plan could strand a committed near-term goal. A higher NPV does not override that constraint; changing a goal's timing or priority requires the user's preferences, not a hidden assumption.
 
-2. **Foundation secure, still accumulating, has cheap/flexible debt**  
-   → **Anderson + Corporate Finance drive.** Classify debt, compute after-tax spreads, respect the glide-path D/A ratio and the ~25 % securities-based-lending guardrail. Perkins is a minor tilt at most.
+### A comparison workflow to adapt
 
-3. **Foundation secure AND at/above the survival threshold with genuine surplus**  
-   → **Perkins’ weighting rises sharply.** Age-locked experiences receive a utility premium; the net-worth-peak question is live; “invest the spread forever” needs a positive reason to beat “use it while it still matters.”
-
-4. **Any liquidity-constrained multi-goal case**  
-   → The **liquidity stress test is a hard gate above the NPV ranking**. A higher-NPV plan that can strand a committed near-term goal loses to a lower-NPV plan that preserves optionality.
-
-```
-GATE 1 — FOUNDATION (Leimberg)
-  3–6 mo liquid reserve AND catastrophic-risk insured?
-  NO  → fix that first; only oppressive-debt payoff also allowed. STOP.
-  YES ↓
-GATE 2 — OPPRESSIVE DEBT (Anderson)
-  Any debt rate > inflation + ~6 % (~8 %+)?
-  YES → pay it off; guaranteed high after-tax return beats almost everything. Re-enter after.
-  NO  ↓
-GATE 3 — COMPUTE THE SPREAD (Corporate Finance)
-  For each option, after-tax cost of debt r_D(1−T_c) vs. after-tax opportunity cost / expected return;
-  discount all goal cash flows to NPV. Rank options.
-  ↓
-GATE 4 — LEVERAGE & LIQUIDITY GUARDRAILS (Anderson)
-  Total D/A within the net-worth-to-income band? Debt serviceable in a stress scenario?
-  Securities-based borrowing ≤ ~25 % of portfolio? Constrain the ranking to what passes.
-  ↓
-GATE 5 — MULTI-GOAL LIQUIDITY STRESS TEST (hard gate, above NPV)
-  Would the top-NPV plan strand a committed near-term goal?
-  If yes, prefer the plan that preserves optionality even at a slightly worse spread.
-  ↓
-GATE 6 — LIFE-STAGE UTILITY (Perkins)  [weight rises with surplus above survival threshold]
-  Apply the rising personal interest rate to age-locked experiences; consider net-worth peak
-  and give-while-alive timing; do not over-accumulate past the point of utility.
-  ↓
-RECOMMEND with explicit assumptions + a sensitivity note (what flips the answer).
-```
+- Establish the decision, relevant dates, known facts, and material gaps. Ask only for missing inputs that could change the result; give conditional comparisons when useful.
+- Compare feasible cash-flow paths, including debt relief, reserve building, and restructuring where relevant.
+- Calculate after-tax costs and benefits on a consistent risk basis, including fees and applicable deductions. NPV ranks specified cash flows; it does not turn a risky forecast into a certain return.
+- Test debt service, collateral calls, access to liquidity, and goal funding under relevant stress scenarios. Source leverage ratios can frame this test but cannot replace it.
+- Discuss life-stage utility, simplicity, and legacy preferences where they affect the choice. Do not require a numerical utility estimate.
+- Recommend the supported next step with material assumptions and the condition that would change the comparison. Scale the output to the task; these are reasoning aids, not mandatory answer headings.
 
 ## Worked example — funding a graduate degree while preserving funds for a second one
 
@@ -70,11 +44,11 @@ RECOMMEND with explicit assumptions + a sensitivity note (what flips the answer)
 1. **Goals & timelines (Leimberg 1–2)**  
    Goal A = degree now; Goal B = degree in ~3 yrs (probability p, cost estimate). Both are cash-flow-timing goals. Clarify amounts, loan rate and tax treatment, tax bracket, expected return on liquid savings, risk tolerance, and how firm Goal B is.
 
-2. **Foundation gate (Leimberg)**  
-   Confirm 3–6 months’ reserve and catastrophic-risk cover exist *outside* the $X. If not, that comes first.
+2. **Foundation assessment (Leimberg)**
+   Identify an appropriate reserve and catastrophic-risk protection, and whether $X includes funds needed for either. The illustrative 3–6 month range is not a pass/fail gate; compare funding sequences if the base is weak.
 
 3. **Classify the tuition financing (Anderson)**  
-   A subsidized/low-cost student loan at, say, 5–7 % is **working debt**, not oppressive (oppressive ≈ > inflation + 6 %). It is a candidate to *keep*, not reflexively avoid.
+   A hypothetical subsidized student loan at 5–7% may function as **working debt** if its actual terms, purpose, and debt service fit this household. The rate alone and the source inflation-plus heuristic do not determine the classification or recommendation.
 
 4. **Compute the spread (Corporate Finance)**  
    Compare the loan’s after-tax cost `r_D(1 − T_c)` against the after-tax return on keeping $X liquid/invested. If the loan is 6 % with no deduction and safe liquid return is ~4–5 %, the *financial* cost of borrowing is a small negative spread — but you are buying **optionality for Goal B**.
@@ -95,18 +69,18 @@ RECOMMEND with explicit assumptions + a sensitivity note (what flips the answer)
 
 - **Classify (Anderson)**: 3.5 % mortgage (after-tax ~2.7 % if deductible) = enriching/working debt, not oppressive.
 - **Spread (Corporate Finance)**: after-tax cost ~2.7 % vs. risk-appropriate expected return on investing; a diversified portfolio’s expected after-tax return typically exceeds 2.7 %, so NPV favors *investing / keeping the debt*.
-- **Anderson**: paying it off earns a guaranteed ~2.7 % — below the ~4 % “do not accelerate” threshold — and destroys liquidity. Keep the mortgage; keep the windfall liquid/invested. Confirm D/A and stress serviceability.
+- **Anderson**: the illustrative ~2.7% after-tax borrowing cost makes retention worth comparing. Check actual deductibility, fees, accessible liquidity, and stressed debt service; the ~4% source threshold does not settle the choice.
 - **Leimberg**: ensure reserve and insurance remain intact first.
-- **Perkins**: if the client is past the survival threshold with large surplus *and* the psychological freedom of a paid-off house unlocks measurably higher present living, surface that as an explicit, quantified utility trade-off — not a default.
+- **Perkins**: discuss whether a paid-off house or spending now would improve the client's life. Compare that preference with longevity, dependants, legacy goals, and liquidity needs; neither the survival formula nor an invented utility number decides the result.
 
 ## Worked example — early-career bold move vs. safe job (Perkins Rule 9 + Anderson)
 
 Young client, low net worth, high human-capital upside, opportunity to relocate or switch into a higher-variance career.  
-Oppressive consumer debt must be cleared first (Anderson/Leimberg). Once the foundation is minimal but present, the asymmetric upside of the bold move (Perkins) dominates the pure NPV of staying in the safe job, because recovery time is long and downside is bounded. Later in life the same move would reverse the asymmetry.
+Compare costly-debt relief, reserves, and the cash runway for the proposed career move. Youth and recovery time can support taking a bounded risk, but do not prove it dominates staying employed. State the downside, obligations, fallback, and preferences that would justify either course.
 
 ## Decision Rules for the synthesizer
-- Walk the six gates in order; do not skip foundation or oppressive-debt checks.
+- Use the comparison workflow at the depth the question needs. Prioritize foundation needs and costly debt without mechanically stopping or filling a fixed checklist.
 - Never end on “it depends” without stating *on what* (the sensitivity note).
-- When Anderson and Perkins conflict, the client’s position relative to the survival threshold decides the weight.
+- When Anderson and Perkins conflict, examine actual financial resilience, time-sensitive opportunities, and the client's preferences; the survival-threshold formula does not decide the weights.
 - When pure NPV and liquidity conflict, liquidity (optionality for committed goals) is the hard gate.
 - State assumptions (rates, tax, horizons, probabilities) explicitly; invite the user to substitute their own numbers.

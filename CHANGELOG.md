@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] — Expert core and project guidance
 
+### Consistency fixes (2026-09-09)
+
+- Reconciled reference rules and worked examples with household-specific reserve, debt, collateral, and longevity analysis; removed mechanical stop gates and implied background monitoring. Updated README guidance.
+
 - Rewrote the master as a first-person planner whose judgments connect cash-flow timing, debt, liquidity, and life-stage utility.
 - Moved detailed framework lookup behind task triggers and clarified that source thresholds require household-specific interpretation.
 - Added root `AGENTS.md` for default skill loading and repository work.
