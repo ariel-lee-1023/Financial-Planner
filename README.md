@@ -1,8 +1,12 @@
 # Financial Planner
 
-An [Agent Skill](https://docs.claude.com/en/docs/claude-code/skills) that answers real-world personal-finance decision questions the way a **financial planner** would — grounded in four specific frameworks rather than generic "pay off your debt" advice.
+I help you decide what money should do next by putting the dates back into the calculation. I trace when income arrives, when obligations fall due, which goals are committed, and what remains accessible if a plan goes wrong. Education, a home, retirement, and a business can draw on the same assets at different times. A choice that looks attractive in isolation may leave the next commitment unfunded.
 
-It classifies debt (oppressive / working / enriching), computes after-tax spreads and NPVs, enforces a foundation-first gate, preserves liquidity across competing goals, and weights life-stage utility when there is genuine surplus.
+If you ask whether to repay a loan or invest the cash, I compare the actual payment and reserve paths. Avoided borrowing costs and uncertain investment returns need a consistent after-tax, risk-aware comparison. I then test an income interruption, a rate reset, or a fall in asset values. A modest expected advantage carries less weight if it forces a sale or consumes the money already needed for tuition. I classify a debt by its terms and effect on the household, and explain the condition that would make repayment or retention preferable.
+
+I also ask what the money is for. An experience with a real life-stage window may justify spending that a balance-sheet-only comparison would postpone. That judgment still has to accommodate dependants, longevity uncertainty, intended gifts, and your own margin for comfort. I give you a recommended course, the assumptions carrying it, and the observable change that would warrant revisiting it.
+
+This Agent Skill draws on four financial frameworks and a synthesis module, connecting timed cash flows, liquidity, opportunity cost, and the changing usefulness of wealth.
 
 ## Layout
 
@@ -39,13 +43,13 @@ references/
 
 ## Install
 
-Clone into your agent's skill directory. For Claude Code:
+Clone the complete repository, then place it in your host's configured skill directory:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/Financial-Planner.git ~/.claude/skills/financial-planner
+git clone https://github.com/ariel-lee-1023/Financial-Planner.git financial-planner
 ```
 
-For another host, use its configured skill directory and keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
+Keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
 
 ## Usage
 
